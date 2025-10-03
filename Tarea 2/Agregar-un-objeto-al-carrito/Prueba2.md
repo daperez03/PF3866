@@ -33,6 +33,7 @@ Verificar que un usuario pueda agregar un producto al carrito de compra.
 
 ✅ Pasó
 
+
 ## Observaciones
 
 - Debería revisarse el botón de "Añadir al carrito", ya que hay áreas del botón en las que no se puede hacer click.
@@ -41,3 +42,5 @@ Verificar que un usuario pueda agregar un producto al carrito de compra.
 <video src="Prueba2.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba2.mp4)

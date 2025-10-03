@@ -42,3 +42,5 @@ Verificar que el sistema pueda eliminar productos que ya no se desean del carrit
 <video src="Prueba5.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba5.mp4)

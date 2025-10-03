@@ -45,3 +45,5 @@ Verificar que el sistema no permita iniciar sesión con correo invalido.
 <video src="Prueba4.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba4.mp4)

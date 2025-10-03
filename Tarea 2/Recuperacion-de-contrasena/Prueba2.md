@@ -44,3 +44,5 @@ Verificar que le formulario para restablecer contraseña no permita correos inva
 <video src="Prueba2.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba2.mp4)

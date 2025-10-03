@@ -34,6 +34,7 @@ Verificar que un usuario pueda agregar dos unidades de un mismo producto al carr
 
 ❌ Falló
 
+
 ## Observaciones
 
 - Es necesario mantener un inventario en tiempo real que refleje la disponibilidad actual de productos en la página.
@@ -41,3 +42,5 @@ Verificar que un usuario pueda agregar dos unidades de un mismo producto al carr
 <video src="Prueba3.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba3.mp4)

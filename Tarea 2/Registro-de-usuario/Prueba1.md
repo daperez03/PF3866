@@ -56,3 +56,5 @@ Verificar que el formulario de registro de usuario funcione correctamente con da
 <video src="Prueba1.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba1.mp4)

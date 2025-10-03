@@ -43,3 +43,5 @@ Verificar que el sistema no permita iniciar sesión a un usuario que no existe e
 <video src="Prueba2.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba2.mp4)

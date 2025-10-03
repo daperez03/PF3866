@@ -49,3 +49,5 @@ Verificar que un usuario pueda iniciar sesión correctamente con datos válidos.
 <video src="Prueba1.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba1.mp4)

@@ -39,3 +39,5 @@ Verificar que el sistema pueda eliminar productos rápidamente que ya no se dese
 <video src="Prueba6.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba6.mp4)

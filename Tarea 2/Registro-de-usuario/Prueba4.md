@@ -40,3 +40,5 @@ Verificar que el formulario de registro de usuario muestre las políticas.
 <video src="Prueba4.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba4.mp4)

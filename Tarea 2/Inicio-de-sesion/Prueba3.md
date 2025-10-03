@@ -44,3 +44,5 @@ Verificar que el sistema no permita iniciar sesión sin ingresar la contraseña.
 <video src="Prueba3.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba3.mp4)

@@ -48,3 +48,5 @@ Verificar que el formulario de registro de usuario genere un error cuando se int
 <video src="Prueba2.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba2.mp4)

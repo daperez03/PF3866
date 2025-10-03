@@ -32,6 +32,7 @@ Verificar que un usuario pueda agregar un producto rápidamente al carrito de co
 
 ✅ Pasó
 
+
 ## Observaciones
 
 - Sería bueno revisar la interacción con el carrito, ya que la primera pestaña me resultó confusa.
@@ -39,3 +40,5 @@ Verificar que un usuario pueda agregar un producto rápidamente al carrito de co
 <video src="Prueba1.mp4" controls>
     Tu navegador no soporta la reproducción de video.
 </video>
+
+[Ver video](./Prueba1.mp4)
