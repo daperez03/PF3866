@@ -4,7 +4,7 @@
 **BUG-C001**
 
 ## Título  
-**Carrito de compra - El botón para incrementar productos debe tener texto visible**
+**Carrito de compra - Falta etiquetas en algunos botones**
 
 ## Estado  
 - [x] Nuevo  
@@ -26,7 +26,7 @@
 El botón que se utiliza para aumentar o disminuir la cantidad de un producto en el carrito no contiene texto o etiqueta visible que describa su función.  
 Este error afecta la accesibilidad del sitio, ya que las herramientas lectoras de pantalla no pueden identificar correctamente la acción del botón.  
 
-**Error detectado:** “Los botones deben tener texto discernible”.
+**Error detectado:** Los botones deben tener texto discernible.
 
 ## Pasos para reproducir  
 1. Iniciar sesión con un usuario válido.  
@@ -41,10 +41,12 @@ Los botones para aumentar o disminuir la cantidad de un producto deben incluir u
 Los botones para aumentar o disminuir la cantidad no tienen un texto o etiqueta accesible que indique su función.
 
 ## Evidencia  
-- **Captura de pantalla:**  
-  ![Carrito-de-compra](Carrito-de-compra.png)  
-- **Ticket de `Axe Dev Tools`:**  
-  [Ver en Axe Dev Tools](https://axe.deque.com/issues/8e4fe2dc-f3f8-45db-bd61-b5d2d8600cf2)
+- **Capturas de pantalla:**  
+  ![Error 1.1](./Error1.1.png)  
+  ![Error 1.2](./Error1.2.png)  
+- **Tiquetes de `Axe Dev Tools`:**  
+  - [Tiquete 1](https://axe.deque.com/issues/8e4fe2dc-f3f8-45db-bd61-b5d2d8600cf2)
+  - [Tiquete 2](https://axe.deque.com/issues/f29e1966-ac5e-4554-9bbb-bf521e2b8802)
 
 ## Entorno de pruebas  
 - **Navegador:** Microsoft Edge 141  

@@ -26,7 +26,7 @@
 El campo numérico que permite seleccionar la cantidad de artículos disponibles en el carrito de compra rápida no tiene una etiqueta o descripción accesible.  
 Esto impide que las herramientas lectoras de pantalla identifiquen correctamente la función del campo, afectando la accesibilidad del sitio.
 
-**Error detectado:** “El campo del formulario debe tener una etiqueta discernible” (*Form elements must have labels*).
+**Error detectado:** El campo del formulario debe tener una etiqueta discernible.
 
 ## Pasos para reproducir  
 1. Iniciar sesión con un usuario válido.  
@@ -41,10 +41,10 @@ El campo de cantidad debe incluir una etiqueta visible o un atributo accesible q
 El campo de cantidad no tiene una etiqueta visible ni un atributo accesible que indique su función.
 
 ## Evidencia  
-- **Captura de pantalla:**  
-  ![Carrito-de-compra-rapida](./Carrito-de-compra-rapida.png)  
-- **Ticket de `Axe Dev Tools`:**  
-  [Ver en Axe Dev Tools](https://axe.deque.com/issues/3a7ada27-114f-4607-98cb-326e29e970ad)
+- **Capturas de pantalla:**  
+  ![Error 1](./Error1.png)  
+- **Tiquetes de `Axe Dev Tools`:**  
+  [Tiquete 1](https://axe.deque.com/issues/3a7ada27-114f-4607-98cb-326e29e970ad)
 
 ## Entorno de pruebas  
 - **Navegador:** Microsoft Edge 141  

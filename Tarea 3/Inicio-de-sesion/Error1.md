@@ -40,9 +40,9 @@ La casilla de recordar contraseña no tiene una etiqueta visible o accesible.
 
 ## Evidencia  
 - **Captura de pantalla:**  
-  ![Inicio-de-sesion](./Inicio-de-sesion.png)  
-- **Ticket de Axe Dev Tools:**  
-  [Ver en Axe Dev Tools](https://axe.deque.com/issues/01901f52-6c77-4681-bec4-de583b44c91a)
+  ![Error 1](./Error1.png)  
+- **Tiquetes de Axe Dev Tools:**  
+  [Tiquete 1](https://axe.deque.com/issues/01901f52-6c77-4681-bec4-de583b44c91a)
 
 ## Entorno de pruebas  
 - **Navegador:** Microsoft Edge 141  
