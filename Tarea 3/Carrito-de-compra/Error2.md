@@ -42,7 +42,7 @@ El campo de cantidad no tiene una etiqueta visible ni un atributo accesible que 
 
 ## Evidencia  
 - **Capturas de pantalla:**  
-  ![Error 1](./Error1.png)  
+  ![Error 2](./Error2.png)  
 - **Tiquetes de `Axe Dev Tools`:**  
   [Tiquete 1](https://axe.deque.com/issues/3a7ada27-114f-4607-98cb-326e29e970ad)
 
