@@ -117,7 +117,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 ## Matriz de Priorización
 
 | ID | Mejora | Prioridad | Esfuerzo | Impacto | ROI |
-|-|--|--|-||--|
+|----|--------|-----------|----------|---------|-----|
 | M-010 | Políticas de Privacidad | 🔴 Crítica | Alto | Crítico | ⭐⭐⭐⭐⭐ |
 | M-002 | Botón Añadir al Carrito | 🔴 Crítica | Bajo | Alto | ⭐⭐⭐⭐⭐ |
 | M-007 | Internacionalización | 🟠 Alta | Medio | Alto | ⭐⭐⭐⭐ |
