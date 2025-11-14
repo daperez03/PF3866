@@ -5,7 +5,7 @@
 </video>
 
 ## Identificador
-M-001
+M-004
 
 ## Módulo Afectado
 Carrito de Compras

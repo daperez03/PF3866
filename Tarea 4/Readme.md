@@ -12,7 +12,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 ### Prioridad Crítica
 
-#### [M-010: Corrección de Enlace de Políticas de Privacidad](./Mejora-Critica-Politicas-Privacidad.md)
+#### [M-001: Corrección de Enlace de Políticas de Privacidad](./Mejora-Critica-Politicas-Privacidad.md)
 **Problema identificado en**: [CT-104](../Tarea%202/Registro-de-usuario/Prueba4.md)  
 **Gravedad**: CRÍTICA - Implicaciones legales  
 **Descripción breve**: El enlace a las políticas de privacidad genera error 404, lo que puede resultar en violaciones legales de la Ley de Protección de Datos de Costa Rica (Ley 8968) y otras regulaciones. Requiere acción inmediata.
@@ -39,7 +39,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 **Esfuerzo**: Bajo (2-4 horas) | **Prioridad**: CRÍTICA (Bug bloqueante)
 
-#### [M-007: Internacionalización de Mensajes de Error](./Mejora-Internacionalizacion-Mensajes.md)
+#### [M-003: Internacionalización de Mensajes de Error](./Mejora-Internacionalizacion-Mensajes.md)
 **Problema identificado en**: [CT-203](../Tarea%202/Inicio-de-sesion/Prueba3.md), [CT-204](../Tarea%202/Inicio-de-sesion/Prueba4.md), [CT-302](../Tarea%202/Recuperacion-de-contrasena/Prueba2.md), [CT-104](../Tarea%202/Registro-de-usuario/Prueba4.md)  
 **Descripción breve**: Múltiples mensajes de error y elementos de interfaz aparecen en inglés mientras el resto del sitio está en español, generando inconsistencia y confusión en los usuarios hispanohablantes.
 
@@ -51,7 +51,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 **Esfuerzo**: Medio (2-3 semanas) | **Prioridad**: Alta
 
-#### [M-001: Rediseño de la Interfaz del Carrito de Compras](./Mejora-Interfaz-Carrito.md)
+#### [M-004: Rediseño de la Interfaz del Carrito de Compras](./Mejora-Interfaz-Carrito.md)
 **Problema identificado en**: [CT-401](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba1.md), [CT-402](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba2.md)  
 **Descripción breve**: La interfaz del carrito, especialmente el carrito de compra rapido, resulta confuso para los usuarios, lo que puede llevar a abandono del proceso de compra. Se requiere simplificación y mejora en la jerarquía visual.
 
@@ -64,7 +64,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 ### Prioridad Media
 
-#### [M-008: Separación del Flujo de Recuperación de Contraseña](./Mejora-Separacion-Recuperacion-Password.md)
+#### [M-005: Separación del Flujo de Recuperación de Contraseña](./Mejora-Separacion-Recuperacion-Password.md)
 **Problema identificado en**: [CT-301](../Tarea%202/Recuperacion-de-contrasena/Prueba1.md)  
 **Descripción breve**: El proceso de recuperación de contraseña está integrado dentro del formulario de inicio de sesión, generando confusión. Se propone crear una página dedicada para mejorar la claridad del proceso.
 
@@ -88,7 +88,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 **Esfuerzo**: Muy Bajo (1-2 horas) | **Prioridad**: Media
 
-#### [M-004: Mensajes de Error en Validación de Cantidad de Productos](./Mejora-Validacion-Cantidad-Productos.md)
+#### [M-007: Mensajes de Error en Validación de Cantidad de Productos](./Mejora-Validacion-Cantidad-Productos.md)
 **Problema identificado en**: [CT-404](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba4.md)  
 **Descripción breve**: Aunque el sistema previene ingresar cantidad 0 de productos, no muestra mensajes explicativos al usuario sobre por qué no puede ingresar ciertos valores, generando confusión.
 
@@ -102,7 +102,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 ### Prioridad Baja-Media
 
-#### [M-009: Sistema Estandarizado de Notificaciones y Mensajes de Confirmación](./Mejora-Duracion-Mensajes-Confirmacion.md)
+#### [M-008: Sistema Estandarizado de Notificaciones y Mensajes de Confirmación](./Mejora-Duracion-Mensajes-Confirmacion.md)
 **Problema identificado en**: [CT-101](../Tarea%202/Registro-de-usuario/Prueba1.md) (y observado en múltiples flujos)  
 **Descripción breve**: Los mensajes de confirmación en todo el sistema se muestran durante muy poco tiempo, insuficiente para que los usuarios los procesen adecuadamente. Se propone implementar un sistema estandarizado de notificaciones con duraciones apropiadas y diseño mejorado que aplique consistentemente en registro, carrito, login, recuperación de contraseña y todas las acciones del usuario.
 
@@ -118,14 +118,14 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 
 | ID | Mejora | Prioridad | Esfuerzo | Impacto | ROI |
 |----|--------|-----------|----------|---------|-----|
-| M-010 | Políticas de Privacidad | 🔴 Crítica | Alto | Crítico | ⭐⭐⭐⭐⭐ |
+| M-001 | Políticas de Privacidad | 🔴 Crítica | Alto | Crítico | ⭐⭐⭐⭐⭐ |
 | M-002 | Botón Añadir al Carrito | 🔴 Crítica | Bajo | Alto | ⭐⭐⭐⭐⭐ |
-| M-007 | Internacionalización | 🟠 Alta | Medio | Alto | ⭐⭐⭐⭐ |
-| M-001 | Interfaz del Carrito | 🟠 Alta | Medio | Alto | ⭐⭐⭐⭐ |
-| M-008 | Recuperación de Contraseña | 🟡 Media | Medio | Medio | ⭐⭐⭐ |
+| M-003 | Internacionalización | 🟠 Alta | Medio | Alto | ⭐⭐⭐⭐ |
+| M-004 | Interfaz del Carrito | 🟠 Alta | Medio | Alto | ⭐⭐⭐⭐ |
+| M-005 | Recuperación de Contraseña | 🟡 Media | Medio | Medio | ⭐⭐⭐ |
 | M-006 | Botón Password Duplicado | 🟡 Media | Muy Bajo | Bajo | ⭐⭐⭐ |
-| M-004 | Validación de Cantidad | 🟡 Media | Bajo | Medio | ⭐⭐⭐ |
-| M-009 | Sistema de Notificaciones | 🟡 Media | Medio | Medio | ⭐⭐⭐ |
+| M-007 | Validación de Cantidad | 🟡 Media | Bajo | Medio | ⭐⭐⭐ |
+| M-008 | Sistema de Notificaciones | 🟡 Media | Medio | Medio | ⭐⭐⭐ |
 
 ## Roadmap Sugerido
 
@@ -133,29 +133,29 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 **Objetivo**: Resolver problemas que bloquean ventas o tienen implicaciones legales
 
 1. **Semana 1**: 
-   - M-010: Inicio de proceso legal y documentación de políticas
+   - M-001: Inicio de proceso legal y documentación de políticas
    - M-002: Corrección del botón de agregar al carrito
 
 2. **Semanas 2-4**: 
-   - M-010: Completar e implementar políticas (continúa)
-   - M-007: Implementar sistema de internacionalización
+   - M-001: Completar e implementar políticas (continúa)
+   - M-003: Implementar sistema de internacionalización
 
 ### Fase 2: Alta Prioridad (Semanas 5-8)
 **Objetivo**: Mejorar experiencia crítica de compra
 
 3. **Semanas 5-8**: 
-   - M-001: Rediseñar interfaz del carrito
+   - M-004: Rediseñar interfaz del carrito
 
 ### Fase 3: Optimización (Semanas 9-12)
 **Objetivo**: Pulir experiencia del usuario
 
 4. **Semanas 9-10**:
-   - M-008: Separar flujo de recuperación de contraseña
+   - M-005: Separar flujo de recuperación de contraseña
 
 5. **Semanas 11-12**:
    - M-006: Corregir botón duplicado
-   - M-004: Implementar validaciones con mensajes
-   - M-009: Mejorar mensajes de confirmación
+   - M-007: Implementar validaciones con mensajes
+   - M-008: Mejorar sistema de notificaciones
 
 ## Metodología de Análisis
 

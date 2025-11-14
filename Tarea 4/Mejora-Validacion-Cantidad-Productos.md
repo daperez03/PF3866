@@ -5,7 +5,7 @@
 </video>
 
 ## Identificador
-M-004
+M-007
 
 ## Módulo Afectado
 Detalle de Producto / Formulario de Cantidad

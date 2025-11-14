@@ -5,9 +5,9 @@
 </video>
 
 ## Identificador
-M-009
+M-008
 
-## Módulos Afectados
+## Módulo Afectado
 - Registro de Usuario
 - Inicio de Sesión
 - Carrito de Compras

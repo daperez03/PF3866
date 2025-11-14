@@ -5,7 +5,7 @@
 </video>
 
 ## Identificador
-M-010
+M-001
 
 ## Módulo Afectado
 Registro de Usuario / Políticas y Términos Legales

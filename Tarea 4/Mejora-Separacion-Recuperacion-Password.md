@@ -5,7 +5,7 @@
 </video>
 
 ## Identificador
-M-008
+M-005
 
 ## Módulo Afectado
 Autenticación / Recuperación de Contraseña
