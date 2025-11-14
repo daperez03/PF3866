@@ -13,7 +13,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 ### Prioridad Crítica
 
 #### [M-010: Corrección de Enlace de Políticas de Privacidad](./Mejora-Critica-Politicas-Privacidad.md)
-**Problema identificado en**: CT-104  
+**Problema identificado en**: [CT-104](../Tarea%202/Registro-de-usuario/Prueba4.md)  
 **Gravedad**: CRÍTICA - Implicaciones legales  
 **Descripción breve**: El enlace a las políticas de privacidad genera error 404, lo que puede resultar en violaciones legales de la Ley de Protección de Datos de Costa Rica (Ley 8968) y otras regulaciones. Requiere acción inmediata.
 
@@ -28,7 +28,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 ### Prioridad Alta
 
 #### [M-002: Corrección del Área Clicable del Botón "Añadir al Carrito"](./Mejora-Boton-Agregar-Carrito.md)
-**Problema identificado en**: CT-402  
+**Problema identificado en**: [CT-402](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba2.md)  
 **Descripción breve**: Existen áreas del botón "Añadir al carrito" que no son clicables, generando frustración y potencialmente bloqueando ventas. Este bug afecta directamente la capacidad de los usuarios para realizar compras.
 
 **Beneficios principales**:
@@ -40,7 +40,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 **Esfuerzo**: Bajo (2-4 horas) | **Prioridad**: CRÍTICA (Bug bloqueante)
 
 #### [M-007: Internacionalización de Mensajes de Error](./Mejora-Internacionalizacion-Mensajes.md)
-**Problema identificado en**: CT-203, CT-204, CT-302, CT-104  
+**Problema identificado en**: [CT-203](../Tarea%202/Inicio-de-sesion/Prueba3.md), [CT-204](../Tarea%202/Inicio-de-sesion/Prueba4.md), [CT-302](../Tarea%202/Recuperacion-de-contrasena/Prueba2.md), [CT-104](../Tarea%202/Registro-de-usuario/Prueba4.md)  
 **Descripción breve**: Múltiples mensajes de error y elementos de interfaz aparecen en inglés mientras el resto del sitio está en español, generando inconsistencia y confusión en los usuarios hispanohablantes.
 
 **Beneficios principales**:
@@ -52,7 +52,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 **Esfuerzo**: Medio (2-3 semanas) | **Prioridad**: Alta
 
 #### [M-001: Rediseño de la Interfaz del Carrito de Compras](./Mejora-Interfaz-Carrito.md)
-**Problema identificado en**: CT-401, CT-402  
+**Problema identificado en**: [CT-401](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba1.md), [CT-402](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba2.md)  
 **Descripción breve**: La interfaz del carrito, especialmente el carrito de compra rapido, resulta confuso para los usuarios, lo que puede llevar a abandono del proceso de compra. Se requiere simplificación y mejora en la jerarquía visual.
 
 **Beneficios principales**:
@@ -65,7 +65,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 ### Prioridad Media
 
 #### [M-008: Separación del Flujo de Recuperación de Contraseña](./Mejora-Separacion-Recuperacion-Password.md)
-**Problema identificado en**: CT-301  
+**Problema identificado en**: [CT-301](../Tarea%202/Recuperacion-de-contrasena/Prueba1.md)  
 **Descripción breve**: El proceso de recuperación de contraseña está integrado dentro del formulario de inicio de sesión, generando confusión. Se propone crear una página dedicada para mejorar la claridad del proceso.
 
 **Beneficios principales**:
@@ -77,7 +77,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 **Esfuerzo**: Medio (1.5-2 semanas) | **Prioridad**: Media
 
 #### [M-006: Corrección del Botón Duplicado de Visualización de Contraseña](./Mejora-Boton-Password-Duplicado.md)
-**Problema identificado en**: CT-201  
+**Problema identificado en**: [CT-201](../Tarea%202/Inicio-de-sesion/Prueba1.md)  
 **Descripción breve**: El botón para visualizar la contraseña aparece duplicado en el formulario de inicio de sesión, generando una interfaz poco profesional y confusa.
 
 **Beneficios principales**:
@@ -89,7 +89,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 **Esfuerzo**: Muy Bajo (1-2 horas) | **Prioridad**: Media
 
 #### [M-004: Mensajes de Error en Validación de Cantidad de Productos](./Mejora-Validacion-Cantidad-Productos.md)
-**Problema identificado en**: CT-404  
+**Problema identificado en**: [CT-404](../Tarea%202/Agregar-un-objeto-al-carrito/Prueba4.md)  
 **Descripción breve**: Aunque el sistema previene ingresar cantidad 0 de productos, no muestra mensajes explicativos al usuario sobre por qué no puede ingresar ciertos valores, generando confusión.
 
 **Beneficios principales**:
@@ -103,7 +103,7 @@ Las mejoras están organizadas por nivel de criticidad y módulo afectado, propo
 ### Prioridad Baja-Media
 
 #### [M-009: Sistema Estandarizado de Notificaciones y Mensajes de Confirmación](./Mejora-Duracion-Mensajes-Confirmacion.md)
-**Problema identificado en**: CT-101 (y observado en múltiples flujos)  
+**Problema identificado en**: [CT-101](../Tarea%202/Registro-de-usuario/Prueba1.md) (y observado en múltiples flujos)  
 **Descripción breve**: Los mensajes de confirmación en todo el sistema se muestran durante muy poco tiempo, insuficiente para que los usuarios los procesen adecuadamente. Se propone implementar un sistema estandarizado de notificaciones con duraciones apropiadas y diseño mejorado que aplique consistentemente en registro, carrito, login, recuperación de contraseña y todas las acciones del usuario.
 
 **Beneficios principales**:
